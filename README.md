@@ -1,6 +1,8 @@
 ﻿# Zaza Draft Knowledge Base
 > **Note:** Draft was renamed to **Draft** on 2025-10-10. Any 'Draft' mentions below refer to Draft.
 
+> **Note:** Draft was renamed to **Draft** on 2025-10-10. Any 'Draft' mentions below refer to Draft.
+
 
 Single source of truth for Draft’s messaging rules, strategy bank, datasets, and QA cases.
 Use this repo to guide Promptly v2.0 development (parsing → slot-fill → fixed strategies → compose → pronouns → quality gate).
