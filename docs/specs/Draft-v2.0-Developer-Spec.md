@@ -1,4 +1,4 @@
-# Zaza Promptly v2.0 - Development Specification
+﻿# Zaza Promptly v2.0 - Development Specification
 
 **Version:** 2.0  
 **Product Owner:** Dr. Greg Blackburn  
@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-Zaza Promptly is an AI-powered communication assistant designed to help educators craft professional, effective messages for parent interactions. Version 2.0 introduces advanced AI coaching capabilities, emotional intelligence features, and collaborative tools to transform communication anxiety into professional confidence.
+Zaza Draft is an AI-powered communication assistant designed to help educators craft professional, effective messages for parent interactions. Version 2.0 introduces advanced AI coaching capabilities, emotional intelligence features, and collaborative tools to transform communication anxiety into professional confidence.
 
 **Core Value Proposition:** Reduce message composition time by 80% while improving communication quality and educator confidence.
 
@@ -246,7 +246,7 @@ Zaza Promptly is an AI-powered communication assistant designed to help educator
 ## KnowledgeCore Integration
 
 ### 1. Purpose
-Zaza Promptly integrates with **KnowledgeCore**, Zaza’s shared AI memory and retrieval infrastructure. KnowledgeCore provides persistent context across messages, sessions, and apps, ensuring that Promptly is not just a message generator but a communication continuity engine.
+Zaza Draft integrates with **KnowledgeCore**, Zaza’s shared AI memory and retrieval infrastructure. KnowledgeCore provides persistent context across messages, sessions, and apps, ensuring that Draft is not just a message generator but a communication continuity engine.
 
 ### 2. Core Integration Points
 
@@ -258,9 +258,9 @@ Zaza Promptly integrates with **KnowledgeCore**, Zaza’s shared AI memory and r
 
 #### 2.2 Cross-App Context Sharing
 **Priority: P0**
-- Make parent communication data in Promptly available in **Inbox** for continuity.
+- Make parent communication data in Draft available in **Inbox** for continuity.
 - Flow professional insights (communication style, responsiveness, outcomes) into **Coach** for teacher development.
-- Allow Promptly-created templates and closing lines to be reused in **Teach**.
+- Allow Draft-created templates and closing lines to be reused in **Teach**.
 
 #### 2.3 Professional Portfolio & Attribution
 **Priority: P1**
@@ -270,7 +270,7 @@ Zaza Promptly integrates with **KnowledgeCore**, Zaza’s shared AI memory and r
 
 #### 2.4 Search & Retrieval
 **Priority: P1**
-- Provide search of past messages within Promptly.
+- Provide search of past messages within Draft.
 - Handle queries via KnowledgeCore’s semantic search and metadata filters.
 - Example: “Find all notes I sent about behaviour issues in Term 1.”
 
@@ -281,14 +281,14 @@ Zaza Promptly integrates with **KnowledgeCore**, Zaza’s shared AI memory and r
 - Provide user controls: *Forget Message* and *Download My Data*.
 
 ### 3. Technical Notes
-- **APIs:** Promptly must call KnowledgeCore APIs for ingestion, retrieval, and metadata tagging.
+- **APIs:** Draft must call KnowledgeCore APIs for ingestion, retrieval, and metadata tagging.
 - **Data Models:** Messages stored with fields for sender, audience, topic, tone, sentiment, and timestamp.
 - **Storage:** Supabase vector DB for embeddings; Firestore for lightweight metadata queries.
 - **Indexing:** Content embedded via OpenAI/Claude API and stored in KnowledgeCore’s retrieval layer.
 - **Security:** Encrypted at rest; role-based access enforced across apps.
 
 ### 4. Example Flow
-1. Teacher drafts a rough parent note in Promptly.
+1. Teacher drafts a rough parent note in Draft.
 2. Comment Agent rewrites → final draft stored in KnowledgeCore.
 3. Next week, Zara references the stored message for continuity.
 4. Parent communication history is visible in Inbox for ongoing relationships.

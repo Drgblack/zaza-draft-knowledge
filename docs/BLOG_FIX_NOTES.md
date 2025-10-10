@@ -1,4 +1,4 @@
-# Blog Fix Pack Implementation Notes
+﻿# Blog Fix Pack Implementation Notes
 
 ## Files Changed/Created
 

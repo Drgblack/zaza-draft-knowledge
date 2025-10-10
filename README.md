@@ -1,10 +1,12 @@
-﻿# Promptly Knowledge Base
+﻿# Zaza Draft Knowledge Base
+> **Note:** Draft was renamed to **Draft** on 2025-10-10. Any 'Draft' mentions below refer to Draft.
 
-Single source of truth for Promptly’s messaging rules, strategy bank, datasets, and QA cases.
+
+Single source of truth for Draft’s messaging rules, strategy bank, datasets, and QA cases.
 Use this repo to guide Promptly v2.0 development (parsing → slot-fill → fixed strategies → compose → pronouns → quality gate).
 
 ## Structure
-- \docs/Promptly-v2.0-Rules.md\ — generation rules and quality gates
+- \docs/Draft-v2.0-Rules.md\ — generation rules and quality gates
 - \docs/Strategies.md\ — parent-facing strategy text (verbatim)
 - \docs/TestCases.md\ — golden scenarios for QA
 - \data/first-names-en-de.csv\ — names → pronoun inference (with UI override)
@@ -17,9 +19,9 @@ Use this repo to guide Promptly v2.0 development (parsing → slot-fill → fixe
 
 ## How to use this repo
 
-- Treat this as the **single source of truth** for Promptly messaging.
+- Treat this as the **single source of truth** for Draft messaging.
 - Engineers consume:
-  - \docs/Promptly-v2.0-Rules.md\ for generation rules and quality gates.
+  - \docs/Draft-v2.0-Rules.md\ for generation rules and quality gates.
   - \docs/Strategies.md\ for the **verbatim** strategy strings (do not let the model rewrite them).
   - \docs/TestCases.md\ for golden scenarios.
   - \data/first-names-en-de.csv\ for Auto pronoun inference (with a UI override in the app).
@@ -28,7 +30,7 @@ Use this repo to guide Promptly v2.0 development (parsing → slot-fill → fixe
 - Parse → slot-fill → insert **fixed strategies** → compose → enforce pronouns → **quality gate** → output.
 - Keep this repo as a **submodule** in the app repo if helpful:
   \\\ash
-  git submodule add https://github.com/Drgblack/zaza-promptly-knowledge.git docs/knowledge
+  git submodule add https://github.com/Drgblack/zaza-draft-knowledge.git docs/knowledge
   \\\
 
 ## Change control

@@ -1,7 +1,7 @@
-Promptly v2.0 – Snippet Generation Rules
+﻿Promptly v2.0 – Snippet Generation Rules
 Purpose
 
-These rules define how Promptly generates parent messages. They ensure every output is professional, supportive, and consistent, meeting the standard teachers expect from Promptly.
+These rules define how Draft generates parent messages. They ensure every output is professional, supportive, and consistent, meeting the standard teachers expect from Draft.
 
 1. Structure
 

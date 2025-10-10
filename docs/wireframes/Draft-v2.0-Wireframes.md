@@ -1,4 +1,4 @@
-# Zaza Promptly v2.0 - Wireframe Documentation
+﻿# Zaza Promptly v2.0 - Wireframe Documentation
 
 **Version:** 2.0  
 **Document Type:** UX/UI Wireframe Specifications  
@@ -37,7 +37,7 @@ App Structure:
 #### 1.1 Welcome Screen
 ```
 ┌─────────────────────────────────────┐
-│  [Zaza Promptly Logo]               │
+│  [Zaza Draft Logo]               │
 │                                     │
 │  "AI-Powered Communication         │
 │   for Confident Educators"         │

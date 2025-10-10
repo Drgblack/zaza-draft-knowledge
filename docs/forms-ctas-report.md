@@ -1,4 +1,4 @@
-# Forms & CTAs Report - GDPR Compliance & Brevo Integration
+﻿# Forms & CTAs Report - GDPR Compliance & Brevo Integration
 
 **Date**: September 27, 2025  
 **Scope**: Complete audit of all forms, CTAs, and email capture with GDPR compliance  

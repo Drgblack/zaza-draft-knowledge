@@ -1,4 +1,4 @@
-# i18n Parity Report - EN/DE Translation Audit
+﻿# i18n Parity Report - EN/DE Translation Audit
 
 **Date**: September 27, 2025  
 **Languages**: English (EN) default, Deutsch (DE) secondary  

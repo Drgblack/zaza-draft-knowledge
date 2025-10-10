@@ -1,4 +1,4 @@
-# Zaza Promptly v2.1 -- Developer Specification (Revised)
+﻿# Zaza Promptly v2.1 -- Developer Specification (Revised)
 
 **Prepared by:** Dr. Greg Blackburn  
 **Version:** 2.1  
@@ -354,7 +354,7 @@ class EnhancedSidekickService {
 class EnhancedOnboardingFlow {
   final List<OnboardingScreen> screens = [
     OnboardingScreen(
-      title: "Welcome to Zaza Promptly",
+      title: "Welcome to Zaza Draft",
       subtitle: "Your AI companion for confident school communication",
       illustration: "multi_audience_hero.svg",
       primaryCTA: "Try Creating a Message",

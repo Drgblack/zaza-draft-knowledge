@@ -1,9 +1,9 @@
-﻿# Contributing to Promptly Knowledge Base
+﻿# Contributing to Draft Knowledge Base
 
-Thanks for helping keep Promptly's messaging high-quality and consistent.
+Thanks for helping keep Draft's messaging high-quality and consistent.
 
 ## What belongs here
-- Documentation and datasets that define how Promptly should write (rules, strategy bank, golden tests, names CSV).
+- Documentation and datasets that define how Draft should write (rules, strategy bank, golden tests, names CSV).
 - **No app code** here. (When the app repo exists, it should import these docs/datasets.)
 
 ## Workflow
@@ -21,7 +21,7 @@ Thanks for helping keep Promptly's messaging high-quality and consistent.
 - Avoid absolutes: “always”, “never” → “often”, “sometimes”.
 
 ## Files & structure
-- docs/Promptly-v2.0-Rules.md — canonical rules.
+- docs/Draft-v2.0-Rules.md — canonical rules.
 - docs/Strategies.md — strategy bank (verbatim text shipped to parents).
 - docs/TestCases.md — golden scenarios (acceptance criteria).
 - data/first-names-en-de.csv — name → pronoun inference list.

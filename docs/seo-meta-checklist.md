@@ -1,4 +1,4 @@
-# SEO & Meta Checklist - EN/DE Audit
+﻿# SEO & Meta Checklist - EN/DE Audit
 
 **Audit Date**: September 27, 2025  
 **Pages Audited**: 140 total (98 EN + 42 DE)  

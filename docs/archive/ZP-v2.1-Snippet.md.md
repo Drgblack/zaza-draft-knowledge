@@ -1,4 +1,4 @@
-# Promptly v2.0 – Snippet Tool Design Notes
+﻿# Draft v2.0 – Snippet Tool Design Notes
 
 _Last updated: Sept 2025_
 
@@ -104,7 +104,7 @@ _Last updated: Sept 2025_
 
 ## 📈 Growth & Marketing Hooks
 - Shared snippet public pages carry a strong CTA:  
-  “Love this? Save and refine in Promptly – Start Free Trial.”
+  “Love this? Save and refine in Draft – Start Free Trial.”
 - Teachers can share via email, WhatsApp/Slack (Copy Link), or social (X/Facebook).
 - Viral loop expected to drive adoption via teacher communities.
 
